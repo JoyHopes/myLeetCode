@@ -25,6 +25,7 @@ struct ExampleConst {
         ExampleModel(title: "141. 环链表1", className: ChainTableFirst.self),
         ExampleModel(title: "142. 环链表2", className: ChainTableSecond.self),
         ExampleModel(title: "144. 二叉树的前序遍历", className: AntecedentTraversalOfBinaryTrees.self),
+        ExampleModel(title: "145. 二叉树的后序遍历", className: BackwardTraversalOfABinaryTree.self),
         ExampleModel(title: "160. 相交链表", className: ChainTableSecond.self),
         ExampleModel(title: "206. 反转链表", className: ReverseALinkedList.self),
         ExampleModel(title: "232. 用栈实现队列", className: ImplementQueuesWithStacks.self),
