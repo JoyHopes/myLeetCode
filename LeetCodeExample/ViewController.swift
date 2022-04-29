@@ -22,6 +22,7 @@ struct ExampleConst {
         ExampleModel(title: "83. 删除排序链表中的重复元素", className: RemovesDuplicateElementsFromSortedLinkedLists.self),
         ExampleModel(title: "88. 合并2个有序数组", className: MergesTwoOrderedArrays.self),
         ExampleModel(title: "94. 二叉树的中序遍历", className: MiddleOrderTraversalOfBinaryTrees.self),
+        ExampleModel(title: "101. 对称二叉树", className: SymmetricBinaryTree.self),
         ExampleModel(title: "141. 环链表1", className: ChainTableFirst.self),
         ExampleModel(title: "142. 环链表2", className: ChainTableSecond.self),
         ExampleModel(title: "144. 二叉树的前序遍历", className: AntecedentTraversalOfBinaryTrees.self),
