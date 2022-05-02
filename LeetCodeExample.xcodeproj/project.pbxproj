@@ -19,6 +19,9 @@
 		7C231F0A2814E4F9001CC760 /* TheKthLastNodeInALinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C231F092814E4F9001CC760 /* TheKthLastNodeInALinkedList.swift */; };
 		7C231F0C28159162001CC760 /* ImplementQueuesWithStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C231F0B28159162001CC760 /* ImplementQueuesWithStacks.swift */; };
 		7C231F0E281591C4001CC760 /* MyQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C231F0D281591C4001CC760 /* MyQueue.swift */; };
+		7C7B45C2281ED05D008B2E82 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B45C1281ED05D008B2E82 /* BalancedBinaryTree.swift */; };
+		7C7B45C4281F4A0A008B2E82 /* FlipTheBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B45C3281F4A0A008B2E82 /* FlipTheBinaryTree.swift */; };
+		7C7B45C6281F50DD008B2E82 /* SwapNodesInALinkedListInPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B45C5281F50DD008B2E82 /* SwapNodesInALinkedListInPairs.swift */; };
 		7C9EA7D2280B8B6A00FAC8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EA7D1280B8B6A00FAC8A1 /* AppDelegate.swift */; };
 		7C9EA7D4280B8B6A00FAC8A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EA7D3280B8B6A00FAC8A1 /* SceneDelegate.swift */; };
 		7C9EA7D6280B8B6A00FAC8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EA7D5280B8B6A00FAC8A1 /* ViewController.swift */; };
@@ -81,6 +84,9 @@
 		7C231F092814E4F9001CC760 /* TheKthLastNodeInALinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKthLastNodeInALinkedList.swift; sourceTree = "<group>"; };
 		7C231F0B28159162001CC760 /* ImplementQueuesWithStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementQueuesWithStacks.swift; sourceTree = "<group>"; };
 		7C231F0D281591C4001CC760 /* MyQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQueue.swift; sourceTree = "<group>"; };
+		7C7B45C1281ED05D008B2E82 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
+		7C7B45C3281F4A0A008B2E82 /* FlipTheBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTheBinaryTree.swift; sourceTree = "<group>"; };
+		7C7B45C5281F50DD008B2E82 /* SwapNodesInALinkedListInPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapNodesInALinkedListInPairs.swift; sourceTree = "<group>"; };
 		7C9EA7CE280B8B6A00FAC8A1 /* LeetCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9EA7D1280B8B6A00FAC8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C9EA7D3280B8B6A00FAC8A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -241,6 +247,9 @@
 				7C0484BB281A070800F43FC3 /* BackwardTraversalOfABinaryTree.swift */,
 				7C0484BD281C2C0D00F43FC3 /* SymmetricBinaryTree.swift */,
 				7C012D04281CB859005247D2 /* TheMaximumDepthOfABinaryTree.swift */,
+				7C7B45C1281ED05D008B2E82 /* BalancedBinaryTree.swift */,
+				7C7B45C3281F4A0A008B2E82 /* FlipTheBinaryTree.swift */,
+				7C7B45C5281F50DD008B2E82 /* SwapNodesInALinkedListInPairs.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -498,14 +507,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C9EA80E280BC40C00FAC8A1 /* SumOfTwoNumbers.swift in Sources */,
+				7C7B45C4281F4A0A008B2E82 /* FlipTheBinaryTree.swift in Sources */,
 				7C9EA7D6280B8B6A00FAC8A1 /* ViewController.swift in Sources */,
 				7C1EEDF1281394D4002572B2 /* TheMiddleNodeOfALinkedList.swift in Sources */,
 				7CD6B555281055F300ABAA05 /* ChainTableFirst.swift in Sources */,
+				7C7B45C2281ED05D008B2E82 /* BalancedBinaryTree.swift in Sources */,
 				7CAB6E6A28161ABF003425D9 /* StringDecode.swift in Sources */,
 				7C1EEDED28121C10002572B2 /* ReverseALinkedList.swift in Sources */,
 				7C0484BE281C2C0D00F43FC3 /* SymmetricBinaryTree.swift in Sources */,
 				7C231F0E281591C4001CC760 /* MyQueue.swift in Sources */,
 				7C9EA808280BBD3500FAC8A1 /* MissingDataFromAnArray.swift in Sources */,
+				7C7B45C6281F50DD008B2E82 /* SwapNodesInALinkedListInPairs.swift in Sources */,
 				7CAB6E6C281785EE003425D9 /* TreeNode.swift in Sources */,
 				7CD6B5572810632300ABAA05 /* ChainTableSecond.swift in Sources */,
 				7C9EA812280C0FA600FAC8A1 /* MergesTwoOrderedLists.swift in Sources */,

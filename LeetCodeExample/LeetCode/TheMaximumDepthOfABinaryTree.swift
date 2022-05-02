@@ -33,7 +33,7 @@ class TheMaximumDepthOfABinaryTree: LeetCodeBaseVC {
 //    }
     
     var depth = 0
-    // 前序遍历
+    // 前序遍历 
     func maxDepth(_ root: TreeNode?) -> Int {
         calNode(root, 1)
         return depth

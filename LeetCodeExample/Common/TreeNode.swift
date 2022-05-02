@@ -30,4 +30,28 @@ public class TreeNode {
         self.left = left
         self.right = right
     }
+    
+    public func log(_ level: Int = 0, _ depth: Int) {
+        print("aaa === \(self.val)")
+//        
+//        if self.left == nil, self.right != nil {
+//            print("aaa === null")
+//            print("aaa === null")
+//            self.right?.log(level+1, depth)
+//        } else if self.left != nil, self.right == nil {
+//            self.left?.log(level+1, depth)
+//            print("aaa === null")
+//            print("aaa === null")
+//        } else if self.left == nil, self.right == nil, level < depth {
+//            print("aaa === null")
+//            print("aaa === null")
+//        } else {
+//            self.left?.log(level+1, depth)
+//            self.right?.log(level+1, depth)
+//        }
+    }
+    
+    public class func maxDepth(_ root: TreeNode?) -> Int {
+        return root == nil ? 0 : max(maxDepth(root?.left), maxDepth(root?.right)) + 1
+    }
 }
