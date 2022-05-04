@@ -9,13 +9,14 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-struct ExampleModel {
+public struct ExampleModel {
     let title: String
     let className: UIViewController.Type
 }
 
 struct ExampleConst {
     static let datasource: Observable = Observable.just([
+        ExampleModel(title: "0. 十大排序算法", className: SortAlgorithm.self),
         ExampleModel(title: "1. 两个数之和", className: SumOfTwoNumbers.self),
         ExampleModel(title: "21. 合并2个有序链表", className: MergesTwoOrderedLists.self),
         ExampleModel(title: "24. 两两交换链表中的节点", className: SwapNodesInALinkedListInPairs.self),
@@ -39,6 +40,7 @@ struct ExampleConst {
         ExampleModel(title: "394. 字符串解码", className: StringDecode.self),
         ExampleModel(title: "448. 找到所有数组中消失的数字", className: MissingDataFromAnArray.self),
         ExampleModel(title: "876. 链表的中间结点", className: TheMiddleNodeOfALinkedList.self),
+        ExampleModel(title: "912. 排序数组", className: SortAnArray.self),
         ExampleModel(title: "剑指 Offer 22. 链表中倒数第k个节点", className: TheKthLastNodeInALinkedList.self)
     ])
 }
