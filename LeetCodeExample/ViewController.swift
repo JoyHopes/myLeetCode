@@ -39,6 +39,7 @@ struct ExampleConst {
         ExampleModel(title: "283. 移动零", className: MobileZero.self),
         ExampleModel(title: "394. 字符串解码", className: StringDecode.self),
         ExampleModel(title: "448. 找到所有数组中消失的数字", className: MissingDataFromAnArray.self),
+        ExampleModel(title: "704. 二分查找", className: BinarySearch.self),
         ExampleModel(title: "876. 链表的中间结点", className: TheMiddleNodeOfALinkedList.self),
         ExampleModel(title: "912. 排序数组", className: SortAnArray.self),
         ExampleModel(title: "剑指 Offer 22. 链表中倒数第k个节点", className: TheKthLastNodeInALinkedList.self)
