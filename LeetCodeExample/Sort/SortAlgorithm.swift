@@ -19,7 +19,9 @@ struct SortConst {
         ExampleModel(title: "快速排序", className: Qksort.self),
         ExampleModel(title: "归并排序", className: OrderByMerging.self),
         ExampleModel(title: "堆排序", className: Heapsort.self),
-        ExampleModel(title: "计数排序", className: CountSorting.self)])
+        ExampleModel(title: "计数排序", className: CountSorting.self),
+        ExampleModel(title: "桶排序", className: BucketSort.self),
+        ExampleModel(title: "基数排序", className: RadixSorting.self)])
 }
 
 class SortAlgorithm: LeetCodeBaseVC {
