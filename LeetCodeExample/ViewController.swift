@@ -41,6 +41,7 @@ struct ExampleConst {
         ExampleModel(title: "283. 移动零", className: MobileZero.self),
         ExampleModel(title: "338. 比特位计数", className: BitCount.self),
         ExampleModel(title: "394. 字符串解码", className: StringDecode.self),
+        ExampleModel(title: "415. 字符串相加", className: StringAddition.self),
         ExampleModel(title: "448. 找到所有数组中消失的数字", className: MissingDataFromAnArray.self),
         ExampleModel(title: "461. 汉明距离", className: HammingDistance.self),
         ExampleModel(title: "704. 二分查找", className: BinarySearch.self),
