@@ -17,10 +17,12 @@ public struct ExampleModel {
 struct ExampleConst {
     static let datasource: Observable = Observable.just([
         ExampleModel(title: "0. 十大排序算法", className: SortAlgorithm.self),
+        ExampleModel(title: "动态规划", className: GameBackpackDynamicProgramming.self),
         ExampleModel(title: "1. 两个数之和", className: SumOfTwoNumbers.self),
         ExampleModel(title: "20. 有效的括号", className: ValidParentheses.self),
         ExampleModel(title: "21. 合并2个有序链表", className: MergesTwoOrderedLists.self),
         ExampleModel(title: "24. 两两交换链表中的节点", className: SwapNodesInALinkedListInPairs.self),
+        ExampleModel(title: "53. 最大子数组和", className: TheLargestSubarraySum.self),
         ExampleModel(title: "70. 爬楼梯", className: ClimbStairs.self),
         ExampleModel(title: "83. 删除排序链表中的重复元素", className: RemovesDuplicateElementsFromSortedLinkedLists.self),
         ExampleModel(title: "88. 合并2个有序数组", className: MergesTwoOrderedArrays.self),
@@ -44,6 +46,7 @@ struct ExampleConst {
         ExampleModel(title: "415. 字符串相加", className: StringAddition.self),
         ExampleModel(title: "448. 找到所有数组中消失的数字", className: MissingDataFromAnArray.self),
         ExampleModel(title: "461. 汉明距离", className: HammingDistance.self),
+        ExampleModel(title: "509. 斐波那契数", className: FibonacciNumber.self),
         ExampleModel(title: "704. 二分查找", className: BinarySearch.self),
         ExampleModel(title: "876. 链表的中间结点", className: TheMiddleNodeOfALinkedList.self),
         ExampleModel(title: "912. 排序数组", className: SortAnArray.self),

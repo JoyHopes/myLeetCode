@@ -12,7 +12,7 @@ class MissingDataFromAnArray: LeetCodeBaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "448. 找到所有数组中消失的数字"
+        self.title = " 448. 找到所有数组中消失的数字"
         
         var nums = [4,3,2,7,8,2,3,1]
         let resultNums = findDisappearedNumbers(&nums)

@@ -36,30 +36,84 @@ class StringAddition: LeetCodeBaseVC {
      
         self.title = "415. 字符串相加"
         
-        debugPrint(addStrings("11", "123"))
+        debugPrint(addStrings("1", "9"))
     }
     
+//    func addStrings(_ num1: String, _ num2: String) -> String {
+//        var stringResult = ""
+//
+//        let num1Array = Array(num1)
+//
+//        let num2Array = Array(num2)
+//
+//        var i = num1Array.count - 1
+//        var j = num2Array.count - 1
+//
+//        // 进位变量
+//        var carry = 0
+//        while i >= 0 || j >= 0 || carry == 1 {
+//            let x = i < 0 ? 0 : num1Array[i].asciiValue! - String.Element("0").asciiValue!
+//            let y = j < 0 ? 0 : num2Array[j].asciiValue! - String.Element("0").asciiValue!
+//            stringResult.append("\((Int(x + y) + carry) % 10)")
+//            carry = (Int(x + y) + carry) / 10
+//            i -= 1
+//            j -= 1
+//        }
+//
+//        return String(stringResult.reversed())
+//    }
+    
     func addStrings(_ num1: String, _ num2: String) -> String {
-        var stringResult = ""
+        var num1 = Array(num1)
+        var num2 = Array(num2)
         
-        let num1Array = Array(num1)
         
-        let num2Array = Array(num2)
+        var result = [Int]()
+        var addOne = 0 // 进位标记
         
-        var i = num1Array.count - 1
-        var j = num2Array.count - 1
+        let asciiZero = String.Element("0").asciiValue!
         
-        // 进位变量
-        var carry = 0
-        while i >= 0 || j >= 0 || carry == 1 {
-            let x = i < 0 ? 0 : num1Array[i].asciiValue! - String.Element("0").asciiValue!
-            let y = j < 0 ? 0 : num2Array[j].asciiValue! - String.Element("0").asciiValue!
-            stringResult.append("\((Int(x + y) + carry) % 10)")
-            carry = (Int(x + y) + carry) / 10
-            i -= 1
-            j -= 1
+        while num1.count > 0, num2.count > 0 {
+            let a = Int(num1.removeLast().asciiValue! - asciiZero)
+            let b = Int(num2.removeLast().asciiValue! - asciiZero)
+            
+            let sum = a + b + addOne
+            if sum >= 10 {
+                addOne = 1
+            } else {
+                addOne = 0
+            }
+            result.append(sum % 10)
         }
         
-        return String(stringResult.reversed())
+        while num1.count > 0 {
+            let a = Int(num1.removeLast().asciiValue! - asciiZero)
+            let sum = a + addOne
+            if sum >= 10 {
+                addOne = 1
+            } else {
+                addOne = 0
+            }
+            result.append(sum % 10)
+        }
+        
+        while num2.count > 0 {
+            let a = Int(num2.removeLast().asciiValue! - asciiZero)
+            let sum = a + addOne
+            if sum >= 10 {
+                addOne = 1
+            } else {
+                addOne = 0
+            }
+            result.append(sum % 10)
+        }
+        
+        if addOne == 1 {
+            result.append(1)
+        }
+        
+        result = result.reversed()
+        
+        return result.map { "\($0)"}.joined(separator: "")
     }
 }
