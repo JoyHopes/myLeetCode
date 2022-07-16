@@ -54,7 +54,8 @@ struct ExampleConst {
         ExampleModel(title: "912. 排序数组", className: SortAnArray.self),
         ExampleModel(title: "剑指 Offer 03. 数组中重复的数字", className: TheDuplicateNumbersInArray.self),
         ExampleModel(title: "剑指 Offer 04. 二维数组中的查找", className: LookUpInSecondDimensionalArray.self),
-        ExampleModel(title: "剑指 Offer 22. 链表中倒数第k个节点", className: TheKthLastNodeInALinkedList.self)
+        ExampleModel(title: "剑指 Offer 22. 链表中倒数第k个节点", className: TheKthLastNodeInALinkedList.self),
+        ExampleModel(title: "剑指 Offer II 103. 最少的硬币数目", className: TheMiniNumberCoinsAvailable.self)
     ])
 }
 
