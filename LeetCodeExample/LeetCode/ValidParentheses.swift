@@ -43,36 +43,59 @@ class ValidParentheses: LeetCodeBaseVC {
         
         debugPrint(isValid("(]"))
     }
-    
-    
     func isValid(_ s: String) -> Bool {
-        var charList = [String]()
-        let charArray: [String] = s.compactMap { (item) -> String in
-            return "\(item)"
-        }
-        for i in 0..<charArray.count {
-            let char = charArray[i]
-            if char == "(" || char == "[" || char == "{" {
-                charList.append(char)
-            } else if char == ")" {
-                if charList.popLast() != "(" {
+        var stackArray = [String]()
+        let chars = s.compactMap { "\($0)" }
+        for i in 0..<chars.count {
+            if chars[i] == ")" {
+                let char = stackArray.popLast()
+                if char != "(" {
                     return false
                 }
-            } else if char == "]" {
-                if charList.popLast() != "[" {
+            } else if chars[i] == "]" {
+                let char = stackArray.popLast()
+                if char != "[" {
                     return false
                 }
-            } else if char == "}" {
-                if charList.popLast() != "{" {
+            } else if chars[i] == "}" {
+                let char = stackArray.popLast()
+                if char != "{" {
                     return false
                 }
+            } else {
+                stackArray.append(chars[i])
             }
         }
-        
-        if charList.isEmpty == false {
-            return false
-        }
-        
-        return true
+        return stackArray.isEmpty
     }
+//    func isValid(_ s: String) -> Bool {
+//        var charList = [String]()
+//        let charArray: [String] = s.compactMap { (item) -> String in
+//            return "\(item)"
+//        }
+//        for i in 0..<charArray.count {
+//            let char = charArray[i]
+//            if char == "(" || char == "[" || char == "{" {
+//                charList.append(char)
+//            } else if char == ")" {
+//                if charList.popLast() != "(" {
+//                    return false
+//                }
+//            } else if char == "]" {
+//                if charList.popLast() != "[" {
+//                    return false
+//                }
+//            } else if char == "}" {
+//                if charList.popLast() != "{" {
+//                    return false
+//                }
+//            }
+//        }
+//
+//        if charList.isEmpty == false {
+//            return false
+//        }
+//
+//        return true
+//    }
 }

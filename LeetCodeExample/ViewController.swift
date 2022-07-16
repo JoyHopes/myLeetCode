@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Flutter
 
 public struct ExampleModel {
     let title: String
@@ -30,6 +31,7 @@ struct ExampleConst {
         ExampleModel(title: "101. 对称二叉树", className: SymmetricBinaryTree.self),
         ExampleModel(title: "104. 二叉树的最大深度", className: TheMaximumDepthOfABinaryTree.self),
         ExampleModel(title: "110. 平衡二叉树", className: BalancedBinaryTree.self),
+        ExampleModel(title: "121. 买卖股票的最佳时机", className: TheBestTimeToBuyAndSellStocks.self),
         ExampleModel(title: "136. 只出现一次的数字", className: ANumberThatAppearsOnlyOnce.self),
         ExampleModel(title: "141. 环链表1", className: ChainTableFirst.self),
         ExampleModel(title: "142. 环链表2", className: ChainTableSecond.self),
@@ -50,6 +52,8 @@ struct ExampleConst {
         ExampleModel(title: "704. 二分查找", className: BinarySearch.self),
         ExampleModel(title: "876. 链表的中间结点", className: TheMiddleNodeOfALinkedList.self),
         ExampleModel(title: "912. 排序数组", className: SortAnArray.self),
+        ExampleModel(title: "剑指 Offer 03. 数组中重复的数字", className: TheDuplicateNumbersInArray.self),
+        ExampleModel(title: "剑指 Offer 04. 二维数组中的查找", className: LookUpInSecondDimensionalArray.self),
         ExampleModel(title: "剑指 Offer 22. 链表中倒数第k个节点", className: TheKthLastNodeInALinkedList.self)
     ])
 }
@@ -64,6 +68,18 @@ class ViewController: LeetCodeBaseVC {
         super.viewDidLoad()
         
         self.title = "LeetCode Example"
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightItem)
+        
+        rightItem.rx.tap.subscribe(onNext: { [weak self] in
+            debugPrint("rightItem Tap")
+            guard let `self` = self,
+                  let delegate = UIApplication.shared.delegate as? AppDelegate else {
+                return
+            }
+            let flutterController = FlutterViewController(engine: delegate.flutterEngine, nibName: nil, bundle: nil)
+            flutterController.modalPresentationStyle = .fullScreen
+            self.present(flutterController, animated: true, completion: nil)
+        }).disposed(by: disposeBag)
         
         // 注册cell
         exampleTb.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCellID")
@@ -89,6 +105,11 @@ class ViewController: LeetCodeBaseVC {
         // Do any additional setup after loading the view.
     }
 
-
+    private lazy var rightItem: UIButton = {
+        let button = UIButton()
+        button.setTitle("Flutter", for: .normal)
+        button.setTitleColor(UIColor.yellow, for: .normal)
+        return button
+    }()
 }
 

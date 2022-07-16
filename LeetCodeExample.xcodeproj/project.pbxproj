@@ -25,6 +25,7 @@
 		7C342876282E9B170010B076 /* BitCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C342875282E9B170010B076 /* BitCount.swift */; };
 		7C34287828312B920010B076 /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34287728312B920010B076 /* HammingDistance.swift */; };
 		7C34287A2831304F0010B076 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3428792831304F0010B076 /* ValidParentheses.swift */; };
+		7C363BB72882590F000EB9D8 /* LookUpInSecondDimensionalArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C363BB62882590F000EB9D8 /* LookUpInSecondDimensionalArray.swift */; };
 		7C36F1C82832933600962E66 /* StringAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36F1C72832933600962E66 /* StringAddition.swift */; };
 		7C3F136428214D750012DA0C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F136328214D750012DA0C /* BubbleSort.swift */; };
 		7C3F136628214EA30012DA0C /* SortAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3F136528214EA30012DA0C /* SortAlgorithm.swift */; };
@@ -65,6 +66,9 @@
 		7CD6B5572810632300ABAA05 /* ChainTableSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6B5562810632300ABAA05 /* ChainTableSecond.swift */; };
 		7CDB72BA28249B490068EE5E /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB72B928249B490068EE5E /* ShellSort.swift */; };
 		7CDB72BC282553AA0068EE5E /* OrderByMerging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB72BB282553AA0068EE5E /* OrderByMerging.swift */; };
+		7CDB8C952882510600A1A2B9 /* TheDuplicateNumbersInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB8C942882510600A1A2B9 /* TheDuplicateNumbersInArray.swift */; };
+		7CDC1B59284453DB00D0D5BF /* TheBestTimeToBuyAndSellStocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC1B58284453DB00D0D5BF /* TheBestTimeToBuyAndSellStocks.swift */; };
+		7CDC1B5B284605BC00D0D5BF /* ImplementRand10__WithRand7__.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDC1B5A284605BC00D0D5BF /* ImplementRand10__WithRand7__.swift */; };
 		7CDE261D280CF32D00F21A94 /* RemovesDuplicateElementsFromSortedLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE261C280CF32D00F21A94 /* RemovesDuplicateElementsFromSortedLinkedLists.swift */; };
 		7CDE261F280CF6BB00F21A94 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE261E280CF6BB00F21A94 /* ListNode.swift */; };
 		D0859118639365E1C2AD7C25 /* Pods_LeetCodeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F6800BC61219B4D741F837 /* Pods_LeetCodeExample.framework */; };
@@ -111,6 +115,7 @@
 		7C342875282E9B170010B076 /* BitCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCount.swift; sourceTree = "<group>"; };
 		7C34287728312B920010B076 /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
 		7C3428792831304F0010B076 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
+		7C363BB62882590F000EB9D8 /* LookUpInSecondDimensionalArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookUpInSecondDimensionalArray.swift; sourceTree = "<group>"; };
 		7C36F1C72832933600962E66 /* StringAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAddition.swift; sourceTree = "<group>"; };
 		7C3F136328214D750012DA0C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		7C3F136528214EA30012DA0C /* SortAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortAlgorithm.swift; sourceTree = "<group>"; };
@@ -155,6 +160,9 @@
 		7CD6B5562810632300ABAA05 /* ChainTableSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainTableSecond.swift; sourceTree = "<group>"; };
 		7CDB72B928249B490068EE5E /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
 		7CDB72BB282553AA0068EE5E /* OrderByMerging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderByMerging.swift; sourceTree = "<group>"; };
+		7CDB8C942882510600A1A2B9 /* TheDuplicateNumbersInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDuplicateNumbersInArray.swift; sourceTree = "<group>"; };
+		7CDC1B58284453DB00D0D5BF /* TheBestTimeToBuyAndSellStocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBestTimeToBuyAndSellStocks.swift; sourceTree = "<group>"; };
+		7CDC1B5A284605BC00D0D5BF /* ImplementRand10__WithRand7__.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementRand10__WithRand7__.swift; sourceTree = "<group>"; };
 		7CDE261C280CF32D00F21A94 /* RemovesDuplicateElementsFromSortedLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovesDuplicateElementsFromSortedLinkedLists.swift; sourceTree = "<group>"; };
 		7CDE261E280CF6BB00F21A94 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		859A586978D82A6393BE9C65 /* Pods-LeetCodeExample-LeetCodeExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeetCodeExample-LeetCodeExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-LeetCodeExample-LeetCodeExampleUITests/Pods-LeetCodeExample-LeetCodeExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -253,6 +261,7 @@
 				7C9EA7D1280B8B6A00FAC8A1 /* AppDelegate.swift */,
 				7C9EA7D3280B8B6A00FAC8A1 /* SceneDelegate.swift */,
 				7C9EA7D5280B8B6A00FAC8A1 /* ViewController.swift */,
+				7CDB8C93288250F400A1A2B9 /* Offer */,
 				7C51DF38283BBDFA00D7EFEA /* DynamicPlanning */,
 				7C3F136228214D370012DA0C /* Sort */,
 				7C9EA806280BBD1900FAC8A1 /* LeetCode */,
@@ -329,8 +338,19 @@
 				7C36F1C72832933600962E66 /* StringAddition.swift */,
 				7CB4C2C528436903007EFAB0 /* FibonacciNumber.swift */,
 				7CB4C2C728436DEA007EFAB0 /* TheLargestSubarraySum.swift */,
+				7CDC1B58284453DB00D0D5BF /* TheBestTimeToBuyAndSellStocks.swift */,
+				7CDC1B5A284605BC00D0D5BF /* ImplementRand10__WithRand7__.swift */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		7CDB8C93288250F400A1A2B9 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				7CDB8C942882510600A1A2B9 /* TheDuplicateNumbersInArray.swift */,
+				7C363BB62882590F000EB9D8 /* LookUpInSecondDimensionalArray.swift */,
+			);
+			path = Offer;
 			sourceTree = "<group>";
 		};
 		FE87E8D5A42B01AB5043A128 /* Pods */ = {
@@ -354,6 +374,7 @@
 			buildConfigurationList = 7C9EA7F8280B8B6B00FAC8A1 /* Build configuration list for PBXNativeTarget "LeetCodeExample" */;
 			buildPhases = (
 				F60DCFCC67440FA66AD2DDA4 /* [CP] Check Pods Manifest.lock */,
+				91A74233ACB63DCF180A9FFF /* [CP-User] Run Flutter Build my_flutter Script */,
 				7C9EA7CA280B8B6A00FAC8A1 /* Sources */,
 				7C9EA7CB280B8B6A00FAC8A1 /* Frameworks */,
 				7C9EA7CC280B8B6A00FAC8A1 /* Resources */,
@@ -517,6 +538,16 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeetCodeExample-LeetCodeExampleUITests/Pods-LeetCodeExample-LeetCodeExampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		91A74233ACB63DCF180A9FFF /* [CP-User] Run Flutter Build my_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build my_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
 		B2D07668EC46D07CBB33DF4B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -599,11 +630,13 @@
 				7C51DF3A283BBE0B00D7EFEA /* GameBackpackDynamicProgramming.swift in Sources */,
 				7C0484BE281C2C0D00F43FC3 /* SymmetricBinaryTree.swift in Sources */,
 				7C3F136A2821EAD60012DA0C /* SelectionSort.swift in Sources */,
+				7C363BB72882590F000EB9D8 /* LookUpInSecondDimensionalArray.swift in Sources */,
 				7C231F0E281591C4001CC760 /* MyQueue.swift in Sources */,
 				7C9EA808280BBD3500FAC8A1 /* MissingDataFromAnArray.swift in Sources */,
 				7C342876282E9B170010B076 /* BitCount.swift in Sources */,
 				7C7B45C6281F50DD008B2E82 /* SwapNodesInALinkedListInPairs.swift in Sources */,
 				7CAB6E6C281785EE003425D9 /* TreeNode.swift in Sources */,
+				7CDC1B59284453DB00D0D5BF /* TheBestTimeToBuyAndSellStocks.swift in Sources */,
 				7CD6B5572810632300ABAA05 /* ChainTableSecond.swift in Sources */,
 				7C34287A2831304F0010B076 /* ValidParentheses.swift in Sources */,
 				7C9EA812280C0FA600FAC8A1 /* MergesTwoOrderedLists.swift in Sources */,
@@ -626,11 +659,13 @@
 				7C36F1C82832933600962E66 /* StringAddition.swift in Sources */,
 				7C231F0C28159162001CC760 /* ImplementQueuesWithStacks.swift in Sources */,
 				7CDB72BA28249B490068EE5E /* ShellSort.swift in Sources */,
+				7CDC1B5B284605BC00D0D5BF /* ImplementRand10__WithRand7__.swift in Sources */,
 				7C231F0A2814E4F9001CC760 /* TheKthLastNodeInALinkedList.swift in Sources */,
 				7C342872282AADA40010B076 /* RadixSorting.swift in Sources */,
 				7C9EA80A280BBDE200FAC8A1 /* MobileZero.swift in Sources */,
 				7C3F13702822A4B20012DA0C /* BinarySearch.swift in Sources */,
 				7C3F136628214EA30012DA0C /* SortAlgorithm.swift in Sources */,
+				7CDB8C952882510600A1A2B9 /* TheDuplicateNumbersInArray.swift in Sources */,
 				7C1EEDEB28118D6C002572B2 /* CrossLinkedList.swift in Sources */,
 				7C9EA80C280BC37D00FAC8A1 /* MergesTwoOrderedArrays.swift in Sources */,
 				7CDE261F280CF6BB00F21A94 /* ListNode.swift in Sources */,
